@@ -1,0 +1,108 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+body{
+    background-color: #35435e;
+}
+.logo{
+    height: 15vh;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+.cont{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.cont .card1{
+    width: 70%;
+    height: 80%;
+    background-color: #6f7072;
+    background-color: #1f696e;
+    border-radius: 20px;
+    margin: auto;
+}
+.cont .card1 .ggg{
+    width: 80%;
+    margin-top: auto;
+    margin: auto;
+}
+.cont .card1 .ggg .icon{
+    margin-top: 20px;
+}
+.cont .card1 .ggg .icon a{
+    color: black;
+}
+.cont .card1 input:not([type="submit"]){
+    height: 30px;
+    width: 70%;
+    display: block;
+    background-color: #35435e;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid #a1f7f8;
+    padding-left: 20px;
+}
+.cont .card1 input[type="submit"]{
+    height: 30px;
+    width: 40%;
+    display: block;
+    background-color: #35435e;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.cont .card1 input[type="checkbox"]{
+    display: inline;
+    width: 5%;
+    margin-left: 35px;
+    accent-color: #a1f7f8;
+}
+.cont .card1 input:focus-visible{
+    border: 2px solid #748141;
+    outline: none;
+}
+label{
+    margin-top: 7px;
+}
+.cont .card1 .last{
+    display: flex;
+}
+.cont .card1 .last input{
+    cursor: pointer;
+}
+.cont .card2{
+    position: relative;
+}
+.cont .card2 .img1{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+}
+.cont .card2 .img2{
+    width: 110px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+.cont .card2 .img3 {
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
